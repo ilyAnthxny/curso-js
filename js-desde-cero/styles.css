@@ -1,0 +1,325 @@
+/* .gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.purple{
+    background: purple;
+} */
+
+/* .fresa{
+    width: 100px;
+    height: 100px;
+}
+
+.drop-zone{
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: purple;
+    padding: 0;
+    margin: 0;
+} */
+
+
+/* DRAG & DROP II */
+
+/* body{
+    margin: 0;
+    background: #ec407a;
+    font-family: sans-serif;
+    user-select: none;
+
+}
+
+.container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 0 0 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    background: #7e57c2;
+}
+
+.tasks{
+    width: 30%;
+    text-align: center;
+    background: rgb(48, 166, 221);
+    border: 1px solid black;
+    min-height: 130px;
+}
+
+.tasks:first-child{
+    margin-right: 1rem;
+}
+
+.task{
+    background: #7e57c2;
+    padding: 1rem;
+    border-bottom: 1px solid #000;
+    cursor: move;
+}
+
+.task:first-child{
+    border-top: 1px solid #000;
+}
+
+.task:last-child{
+    border-bottom: none;
+}
+
+.active{
+    background: white;
+    color: black;
+} */
+
+
+
+
+
+
+/* API File barras de progreso */
+
+/* :root{
+    --bar-width: 0;
+}
+
+body{
+    margin: 0;
+    background: #ec407a;
+    font-family: sans-serif;
+    color: #fff;
+    user-select: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.load-bar{
+    width: 50%;
+    background: #ccc;
+    height: 10px;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.load-bar::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: royalblue;
+    width: var(--bar-width);
+    height: 10px;
+}
+
+.progress{
+    display: block;
+    background: royalblue;
+    height: 10px;
+    width: 0;
+} */
+
+
+
+
+/* Drag and Drop y API FIle */
+
+/* body{
+    margin: 0;
+    background: #2f3238;
+    font-family: sans-serif;
+    color: #222;
+    user-select: none;
+}
+
+.drop-zone{
+    width: 80%;
+    margin: 1rem auto;
+    height: 300px;
+    background: #838383;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 5px dashed #caced6;
+}
+
+.drop-zone--active{
+    border: 5px solid #caced6;
+    background: #414141;
+    color: #caced6;
+}
+
+.form{
+    width: 100%;
+    text-align: center;
+}
+
+.form__button{
+    background: orangered;
+    border: none;
+    padding: 0.2rem 0.8rem;
+    color: #414141;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+} */
+
+/* body{
+    background: grey;
+}
+
+.form{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.button{
+    background: orangered;
+    border: none;
+    padding: 0.2rem 0.8rem;
+    border-radius: 15px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.tasks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+/* API Online/Offline */
+
+/* body{
+    margin: 0;
+    background: #2f3238;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.alert{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    transform: translateY(-100%);
+}
+
+.alert--online{
+    background: rgba(0, 255, 0, 0.6);
+    animation: reveal 4s ease;
+}
+
+.alert--offline{
+    background: rgba(255, 0, 0, 0.6);
+    animation: reveal 4s ease;
+}
+
+@keyframes reveal{
+    0%{
+        transform: translateY(-100%);
+    }
+    15%,
+    85%{
+        transform: translateY(0);
+    }
+} */
+
+
+
+
+
+
+/* API Intersection Observer */
+
+/* body{
+    background: #2a2a2a;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    overflow: auto;
+}
+
+.box{
+    background: rgb(81, 0, 128);
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 100vh;
+    padding: 1.5rem 0;
+    position: relative;
+} */
+
+/* .box:after{
+    content: "50%";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    background: peru;
+    height: 50%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* img{
+    max-width: 100%;
+} */
+
+
+
+/* API Match Media */
+
+/* body{
+    background: #2a2a2a;
+    font-family: sans-serif;
+    margin: 0;
+    padding-bottom: 100rem;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width: 400px){
+    body{
+        background: #fff;
+    }
+    .title{
+        color: #2a2a2a;
+    }
+} */
